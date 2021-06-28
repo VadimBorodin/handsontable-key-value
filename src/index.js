@@ -9,7 +9,6 @@ Handsontable.cellTypes.registerCellType('key-value', {
   editor: KeyValueEditor,
   renderer: keyValueRenderer,
   validator: keyValueValidator,
-  allowInvalid: false,
 });
 
 export default {
